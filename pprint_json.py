@@ -3,7 +3,6 @@ import json, os
 
 
 def load_data(filepath):
-    """ loading data from a file in json format """
 
     if not os.path.exists(filepath):
         print("There is no file in the specified path.")
@@ -14,7 +13,6 @@ def load_data(filepath):
 
 
 def pretty_print_json(raw_json):
-    """ pretty print to the console of the data from the json format file """
 
     print(json.dumps(raw_json, sort_keys=True, indent=4, ensure_ascii=False))
     return None
