@@ -1,7 +1,6 @@
 # Prettify JSON
 
-Скрипт принимает на вход путь до файла с произвольными данными в формате JSON и 
-выводит его содержимое в консоль в удобном для чтения виде.
+The script takes the input path to a file with arbitrary data in JSON format and displays its contents in the console in an easy-to-read form.
 
 # Quickstart
 
