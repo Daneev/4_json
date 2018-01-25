@@ -7,7 +7,6 @@ The script takes the input path to a file with arbitrary data in JSON format and
 Launch the application.
 
 ```python
-python pprint_json.py
 python pprint_json.py <path to file>
 ```
 
@@ -18,7 +17,7 @@ Example of script launch on Linux, Python 3.5:
 
 ```bash
 
-$ python pprint_json.py data_for_test/data.json
+$ python pprint_json.py data.json
 
 
 
